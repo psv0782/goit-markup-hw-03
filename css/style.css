@@ -384,9 +384,3 @@ img {
     color: #f4f4fd;
     max-width: 264px;
 }
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
