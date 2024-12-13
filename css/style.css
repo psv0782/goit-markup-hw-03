@@ -227,15 +227,26 @@ img {
 }
 
 /* team */
+
+.team {
+    padding: 120px 0;
+    background-color: #f4f4fd;
+}
+
 .team-container {
     display: flex;
     flex-direction: column;
-    padding-top: 120px;
-    gap: 72px;
 }
 
-.team {
-    background-color: #f4f4fd;
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -244,23 +255,15 @@ img {
     justify-content: space-between;
 }
 
-.portfolio-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
 .team-item {
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    max-width: 264px;
-    max-height: 380px;
+    width: calc((100% - 72px) / 4);
     background-color: #ffffff;
-    margin-bottom: 120px;
+}
+
+.team-overlay{
+    padding: 32px 0;
 }
 
 .team-name {
@@ -270,8 +273,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-bottom: 8px;
 }
 
 .team-role {
@@ -281,29 +282,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-bottom: 32px;
-}
-
-.page-footer {
-    background-color: #2e2f42;
-}
-
-.footer-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    max-width: 264px;
-}
-
-.team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
 }
 
 /* portfolio */
@@ -322,6 +300,17 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 120px;
+}
+
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .portfolio-item {
@@ -357,6 +346,22 @@ img {
 .portfolio {
     background: #fff;
 }
+
+/* footer */
+
+.page-footer {
+    background-color: #2e2f42;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+}
+
 
 .footer-logo {
     margin-bottom: 16px;
