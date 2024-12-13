@@ -54,6 +54,7 @@ img {
 .header-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-list {
@@ -134,6 +135,7 @@ img {
 }
 
 .hero-container {
+    padding: 188px 0;
     margin-left: auto;
     margin-right: auto;
 
@@ -148,11 +150,12 @@ img {
     color: #fff;
     background-color: #2e2f42;
     margin-bottom: 48px;
-    padding-top: 188px;
+    /*padding-top: 188px;*/
     max-width: 496px;
 }
 
 .hero-btn {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -165,7 +168,8 @@ img {
     border: none;
     min-width: 169px;
     height: 56px;
-    margin-bottom: 188px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-btn:hover,
@@ -243,7 +247,6 @@ img {
 .team-item {
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
     max-width: 264px;
     max-height: 380px;
     background-color: #ffffff;
