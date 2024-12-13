@@ -178,7 +178,7 @@ img {
 
 /* description */
 
-.description-container{
+.description{
     padding: 120px 0;
 }
 
@@ -203,7 +203,7 @@ img {
 }
 
 .description-item {
-    max-width: 264px;
+    width: calc((100% - 72px) / 4);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
